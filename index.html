@@ -6,71 +6,101 @@
   <title>Página de Inicio</title>
   <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+  <!-- Enlace a los íconos de Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <!-- Menú lateral izquierdo -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 bg-dark text-white">
-        <div class="p-4">
-          <img src="ruta/a/tu/logo.png" alt="Logo de la empresa" class="img-fluid mb-3">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="inicio-de-sesion.html">Inicio de Sesión</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Página de Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portafolio.html">Portafolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="acerca-de-nosotros.html">Acerca de Nosotros</a>
-            </li>
-          </ul>
-        </div>
+  <div class="col-md-3 bg-dark text-white">
+    <div class="p-4">
+      <div class="text-center mb-4">
+        <a href="index.html">
+          <img src="ruta/a/tu/logo.png" alt="Logo de la empresa" class="img-fluid">
+        </a>
       </div>
-      <div class="col-md-9">
-        <!-- Contenido principal -->
-        <header class="p-4">
-          <!-- Aquí puedes agregar la imagen del usuario -->
-        </header>
-        <section class="p-4">
-          <h1>Página de Inicio</h1>
-          <!-- Contenido de la página de inicio -->
-        </section>
-        <!-- Agrega secciones para Servicios, Portafolio, Blog, Acerca de Nosotros -->
+      <div class="text-center mb-4">
+        <!-- Aquí puedes agregar la imagen del usuario -->
+        <img src="ruta/a/la/imagen/del/usuario.png" alt="Imagen de usuario" class="img-fluid mb-2">
+        <p class="text-white">Nombre de usuario</p>
       </div>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="inicio-de-sesion.html">Inicio de Sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Página de Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portafolio.html">Portafolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="acerca-de-nosotros.html">Acerca de Nosotros</a>
+        </li>
+      </ul>
     </div>
   </div>
+  
   <!-- Footer -->
   <footer class="bg-dark text-white text-center p-3">
     <div class="container">
       <div class="row">
         <div class="col">
-          <img src="ruta/a/tu/logo.png" alt="Logo de la empresa" class="img-fluid mb-3">
-          <!-- Agrega enlaces a las redes sociales -->
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item">
+              <a href="#" class="text-white">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <a class="text-white" href="inicio-de-sesion.html">Inicio de Sesión</a>
-          <a class="text-white" href="index.html">Página de Inicio</a>
-          <a class="text-white" href="servicios.html">Servicios</a>
-          <a class="text-white" href="portafolio.html">Portafolio</a>
-          <a class="text-white" href="blog.html">Blog</a>
-          <a class="text-white" href="acerca-de-nosotros">Acerca de Nosotros</a>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="text-white" href="index.html">Página de Inicio</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-white" href="servicios.html">Servicios</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-white" href="portafolio.html">Portafolio</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-white" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-
   </footer>
+  
   <!-- Agrega los enlaces a los archivos JavaScript de Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
